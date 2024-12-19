@@ -1,8 +1,8 @@
 import sqlite3
 
 # Define the database and SQL file paths
-db_path = '/Users/mundy/Desktop/Github projects/spotify_songs.db'
-sql_file_path = '/Users/mundy/Desktop/Github projects/spotify_analysis.sql'
+db_path = '/Desktop/Github projects/spotify_songs.db'
+sql_file_path = '/Desktop/Github projects/spotify_analysis.sql'
 
 def read_queries(sql_file_path):
     with open(sql_file_path, 'r') as file:
