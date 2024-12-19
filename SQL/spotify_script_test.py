@@ -1,8 +1,8 @@
 import sqlite3
 
 # Specify the database file path
-db_path = '/Users/mundy/Desktop/Github projects/spotify_songs.db'
-sql_file_path = '/Users/mundy/Desktop/Github projects/spotify_analysis.sql'
+db_path = '/Desktop/Github projects/spotify_songs.db'
+sql_file_path = '/Desktop/Github projects/spotify_analysis.sql'
 
 # Establish connection to the database
 conn = sqlite3.connect(db_path)
