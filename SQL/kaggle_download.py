@@ -5,7 +5,7 @@ import os
 
 # Define paths
 dataset_name = "refiaozturk/spotify-songs-dataset"
-db_path = '/Users/mundy/Desktop/Github projects/spotify_songs.db'
+db_path = '/Desktop/Github projects/spotify_songs.db'
 
 # Step 1: Download the Spotify dataset using KaggleHub
 spotify_data = kagglehub.dataset_download(dataset_name)
